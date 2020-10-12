@@ -833,7 +833,7 @@ try:
 except Exception:
     type = 0
 if type == 1:
-    nm = int(input("Enter Number of Calls To Send(Maximum 15): "))
+    nm = int(input("Enter Number of Calls To Send(Maximum 10000): "))
     if nm > 15:
         print("\t\tYou Have Entered " + str(nm) +
               ".\n\tNormalizing Value To 15")
